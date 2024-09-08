@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anniversary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/ica-rubrik-bold" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <main> 
+    <div class="list-container">
+      <ul class="list">
+        <li class="list-item"><a href="#quiz">Jueguito</a></li>
+        <li class="list-item"><a href="#gallery">Galería</a></li>
+        <li class="list-item"><a href="#blog">Blog NV</a></li>
+        <li class="list-item"><a href="#contador">Tiempo</a></li>
+      </ul>
+      <div class="highlight"></div>
+    </div>
+    <!-- Galería-->
+    <div class="banner">
+      <div class="slider" style="--quantity: 10">
+          <div class="item" style="--position: 1"><img src="images/dragon 1.jpeg" alt=""></div>
+          <div class="item" style="--position: 2"><img src="images/dragon 2.jpeg" alt=""></div>
+          <div class="item" style="--position: 3"><img src="images/dragon 3.jpeg" alt=""></div>
+          <div class="item" style="--position: 4"><img src="images/dragon 4.jpeg" alt=""></div>
+          <div class="item" style="--position: 5"><img src="images/dragon 5.jpeg" alt=""></div>
+          <div class="item" style="--position: 6"><img src="images/dragon 6.jpeg" alt=""></div>
+          <div class="item" style="--position: 7"><img src="images/dragon 7.jpeg" alt=""></div>
+          <div class="item" style="--position: 8"><img src="images/dragon 8.jpeg" alt=""></div>
+          <div class="item" style="--position: 9"><img src="images/dragon 9.jpeg" alt=""></div>
+          <div class="item" style="--position: 10"><img src="images/dragon 10.jpeg" alt=""></div>
+      </div>
+      </div>
+   <!--LETRERO TE AMO-->
+    <div class="container-love"> <h1 class="text-ILY">TE AMO</h1>
+      <img class="alpaca1" src="./images/alpaca1.png" alt="dos alpacas blancas">
+       </div>
+    <!-- Sección del Juego de Preguntas -->
+    <section id="quiz"> 
+      <div id="quiz-content">
+        <h2>Jueguito</h2>
+          <div id="question"></div>
+          <div id="answers"></div>
+          <div id="result-message"></div>
+          <div id="score"></div>
+      </div>
+    </div>
+    </section>
+    <!--Seccion generador cartas-->
+    <section id="letters">
+        <div class="container-letter"></div>
+          <div id="message-box" class="message-box">Un mensajito para ti</div>
+            <button id="generate-message">Nuevo mensaje</button>
+          </div>
+    </section>
+    <!-- Sección del Calendario de Eventos 
+    <section id="calendar">
+      <h2>Calendario de Eventos</h2>
+      <div id="events"></div>
+    </section>*/ -->
+
+    <!-- Sección del Blog Personalizado -->
+    <section id="blog">
+      <h2>Blog Nv</h2>
+
+      <!-- Entradas del blog -->
+    </section>
+    <h2>Tiempo siendo noviecitas</h2>
+    <!--Contador tiempo siendo novias-->
+    <section id="contador">
+    <div class="container">
+      <div class="time-container">
+        <span class="title">días</span>
+        <h1 class="number" id="Days">0</h1>
+        </div>
+      <div class="time-container">
+          <span class="title">horas</span>
+          <h1 class="number" id="Hours">12</h1>
+      </div>
+      <div class="time-container">
+          <span class="title">minutos</span>
+          <h1 class="number" id="Min">25</h1>
+      </div>
+      <div class="time-container">
+          <span class="title">segundos</span>
+          <h1 class="number" id="Seg">36</h1>
+      </div>
+    </section>
+  </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <h2>¡Feliz Aniversario!</h2>
+            <p> Gracias por hacer cada día más brillante y lleno de amor. Te amo más de lo que las palabras pueden expresar, y cada instante a tu lado es un regalo que valoro infinitamente</p>
+            <p>&copy; 2024</p>
+        </div>
+    </div>
+
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@latest/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+    
+  </body>
+  </html>
